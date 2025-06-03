@@ -1,0 +1,22 @@
+﻿@model IAChatMVC.Models.IARequest
+@{
+    ViewData["Title"] = "Chat com IA";
+}
+
+<h2>Chat com IA</h2>
+
+<form method="post">
+    <div>
+        <label>Pergunta:</label><br />
+        <input type="text" name="Input" value="@Model?.Input" style="width: 60%;" />
+        <button type="submit">Enviar</button>
+    </div>
+</form>
+
+@if (ViewBag.Resposta != null)
+{
+    <div style="margin-top:20px;">
+        <strong>Resposta da IA:</strong>
+        <p>@ViewBag.Resposta</p>
+    </div>
+}
