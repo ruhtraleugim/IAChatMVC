@@ -1,0 +1,16 @@
+@model IAChatMVC.Models.Ia.IaRequestModel
+
+<h2>Chat com IA (TinyLLaMA)</h2>
+
+<form method="post">
+    <input type="text" name="Input" value="@Model?.Input" style="width: 60%;" />
+    <button type="submit">Enviar</button>
+</form>
+
+@if (ViewBag.Resposta != null)
+{
+    <div style="margin-top: 20px;">
+        <strong>Resposta da IA:</strong>
+        <p>@ViewBag.Resposta</p>
+    </div>
+}

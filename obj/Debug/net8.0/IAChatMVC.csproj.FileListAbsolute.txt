@@ -28,3 +28,4 @@ C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\refint\
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.pdb
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.genruntimeconfig.cache
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\ref\IAChatMVC.dll
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.sourcelink.json
