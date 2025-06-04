@@ -1,17 +1,35 @@
 @model IAChatMVC.Models.Ia.IaRequestModel
 
-<h2>Chat com IA (TinyLLaMA)</h2>
+<h2>Assistente IA</h2>
 
-<form method="post">
-    <input type="text" name="Input" value="@Model?.Input" style="width: 60%;" />
-    <button type="submit">Enviar</button>
-</form>
-
-@if (ViewBag.Resposta != null)
-{
-    <div style="margin-top: 20px;">
-        <strong>Resposta da IA:</strong>
-        <p>@ViewBag.Resposta</p>
+<form asp-action="Index" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label>Selecione o tipo de ação:</label>
+        <select asp-for="TipoAcao" class="form-control">
+            <option value="">-- Selecione --</option>
+            <option value="explicacao">Explicação de pergunta</option>
+            <option value="resumo">Resumo de arquivo</option>
+            <option value="emocao">Análise de sentimento</option>
+        </select>
     </div>
 
+    <div class="form-group mt-2">
+        <label>Texto de entrada (opcional para resumo):</label>
+        <input asp-for="Input" class="form-control" />
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Arquivo (somente para resumo):</label>
+        <input asp-for="File" type="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+</form>
+
+@if (!string.IsNullOrWhiteSpace(Model?.Response))
+{
+    <div class="alert alert-info mt-3">
+        <strong>Resposta da IA:</strong>
+        <p>@Model.Response</p>
+    </div>
 }

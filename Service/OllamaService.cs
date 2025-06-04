@@ -17,7 +17,7 @@ namespace Service
         {
             var requestBody = new
             {
-                model = "tinyllama",
+                model = "llama3",
                 prompt = prompt,
                 stream = false
             };

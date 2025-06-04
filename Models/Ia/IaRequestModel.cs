@@ -1,17 +1,14 @@
-using System.Collections.Generic;
-
 namespace IAChatMVC.Models.Ia
 {
-    public class IaRequestModel
-    {
-        public string Input { get; set; }
+public class IaRequestModel
+{
+    public string? Input { get; set; }
 
-        public List<ChatMessage> Messages { get; set; } = new();
-    }
+    public IFormFile? File { get; set; }
 
-    public class ChatMessage
-    {
-        public string Role { get; set; } 
-        public string Message { get; set; }
-    }
+    public string? TipoAcao { get; set; }
+
+    public string? Response { get; set; }
 }
+}
+
