@@ -15,11 +15,6 @@ C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatM
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.RazorAssemblyInfo.cs
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets\msbuild.IAChatMVC.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.IAChatMVC.props
-C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.IAChatMVC.props
-C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.IAChatMVC.props
-C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\scopedcss\bundle\IAChatMVC.styles.css
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\scopedcss\projectbundle\IAChatMVC.bundle.scp.css
@@ -29,3 +24,13 @@ C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatM
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.genruntimeconfig.cache
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\ref\IAChatMVC.dll
 C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.sourcelink.json
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\bin\Debug\net8.0\IAChatMVC.staticwebassets.endpoints.json
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\bin\Debug\net8.0\UglyToad.PdfPig.dll
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\bin\Debug\net8.0\UglyToad.PdfPig.Core.dll
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\bin\Debug\net8.0\UglyToad.PdfPig.Fonts.dll
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\bin\Debug\net8.0\UglyToad.PdfPig.Tokenization.dll
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\bin\Debug\net8.0\UglyToad.PdfPig.Tokens.dll
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.csproj.AssemblyReference.cache
+C:\Users\amsbs\OneDrive\Área de Trabalho\PIA\IAChatMVC\obj\Debug\net8.0\IAChatMVC.csproj.Up2Date

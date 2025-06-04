@@ -6,13 +6,12 @@ namespace IAChatMVC.Models.Ia
     {
         public string Input { get; set; }
 
-        // Lista para manter histórico de mensagens
         public List<ChatMessage> Messages { get; set; } = new();
     }
 
     public class ChatMessage
     {
-        public string Role { get; set; } // "Usuário" ou "IA"
+        public string Role { get; set; } 
         public string Message { get; set; }
     }
 }
